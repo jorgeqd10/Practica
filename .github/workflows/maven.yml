@@ -32,7 +32,7 @@ jobs:
       
     - uses: actions/upload-artifact@v3
       with:
-        name: my-artifact
+        name: serenity-report
         path: /home/runner/work/Practica/Practica/target/site/serenity/
 
   
