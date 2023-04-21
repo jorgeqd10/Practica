@@ -29,3 +29,10 @@ jobs:
         cache: maven
     - name: Build with Maven
       run: mvn verify --file pom.xml
+      
+    - uses: actions/upload-artifact@v3
+      with:
+        name: my-artifact
+        path: /home/runner/work/Practica/Practica/target/site/serenity/
+
+  
